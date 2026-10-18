@@ -1,0 +1,94 @@
+# ========== 编译产物 ==========
+build/
+build-debug/
+build-release/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# ========== CMake 生成 ==========
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+*.cmake
+!CMakeLists.txt
+
+# ========== 依赖目录 ==========
+third_party/
+deps/
+vcpkg_installed/
+conan/
+
+# ========== VSCode ==========
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ========== IDE / 编辑器 ==========
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== 日志与临时文件 ==========
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# ========== 测试与覆盖率 ==========
+Testing/
+*.gcda
+*.gcno
+*.gcov
+coverage/
+*.profraw
+
+# ========== 敏感信息 ==========
+# 如果你把密码写进了配置或脚本，别提交
+config.local.ini
+*.secret
+.env
+
+# ========== 二进制与数据库文件 ==========
+*.bin
+*.db
+*.sqlite
+*.sqlite3
+
+# ========== 性能分析 ==========
+perf.data
+perf.data.old
+callgrind.out.*
+
+# ========== 打包产物 ==========
+*.tar.gz
+*.zip
+*.7z
+*.rar
